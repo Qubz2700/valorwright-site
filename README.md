@@ -1,6 +1,6 @@
 # Valorwright Games
 
-Static website for Valorwright Games LLC, a 100% veteran-owned indie studio in Kilgore, Texas. Built as plain HTML and CSS for GitHub Pages and the custom domain valorwright.com.
+Static website for Valorwright Games LLC, a 100% veteran-owned indie studio in Texas, USA. Built as plain HTML and CSS for GitHub Pages and the custom domain valorwright.com.
 
 No build step. No analytics. Fonts are self-hosted.
 
