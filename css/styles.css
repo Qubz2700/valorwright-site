@@ -474,7 +474,7 @@ body.page-game {
 
 .game-hero img {
   display: block;
-  width: min(100%, 46rem);
+  width: min(85%, 39rem);
   max-width: 2036px;
   height: auto;
   margin-inline: auto;
