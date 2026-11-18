@@ -191,7 +191,7 @@ nav a[aria-current="page"] {
 
 .lockup {
   display: block;
-  width: min(100%, 36rem);
+  width: min(60%, 21.6rem);
   margin: 0.15rem auto 0;
   filter: drop-shadow(0 16px 20px rgba(0, 0, 0, 0.42));
 }
@@ -761,7 +761,7 @@ body.page-game {
   }
 
   .lockup {
-    width: min(100%, 42rem);
+    width: min(100%, 25.2rem);
   }
 
   .tagline {
