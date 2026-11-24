@@ -323,8 +323,23 @@ nav a[aria-current="page"] {
   color: inherit;
 }
 
-.game-card img {
-  width: 6.25rem;
+.game-card .card-feature {
+  width: 100%;
+  height: auto;
+  border-radius: 0.7rem;
+  justify-self: stretch;
+}
+
+.game-card .card-body {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.9rem 1.15rem;
+  align-items: center;
+}
+
+.game-card .card-icon {
+  width: 4.75rem;
+  height: auto;
   justify-self: center;
 }
 
@@ -640,6 +655,38 @@ body.page-game {
   font-size: 0.95rem;
 }
 
+.shot-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem 0.85rem;
+}
+
+.shot-gallery figure {
+  margin: 0;
+}
+
+.shot-gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0.85rem;
+  border: 1px solid rgba(182, 236, 248, 0.22);
+  box-shadow: 0 12px 28px rgba(0, 8, 24, 0.35);
+  background: #071428;
+}
+
+.shot-gallery figcaption {
+  margin-top: 0.4rem;
+  color: var(--lab-muted);
+  font-size: 0.9rem;
+  line-height: 1.35;
+}
+
+.art-gallery {
+  max-width: 22rem;
+  margin-inline: auto;
+}
+
 .back {
   margin: 2rem 0 0;
 }
@@ -774,13 +821,13 @@ body.page-game {
   }
 
   .game-card a {
-    grid-template-columns: auto 1fr;
-    gap: 1.5rem;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
     padding: 1.35rem 1.5rem;
   }
 
-  .game-card img {
-    width: 7.5rem;
+  .game-card .card-icon {
+    width: 6.5rem;
   }
 
   .split {
@@ -793,6 +840,16 @@ body.page-game {
     grid-template-columns: 1fr 1fr;
     align-items: start;
     gap: 1.5rem;
+  }
+
+  .shot-gallery {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.25rem 1.1rem;
+  }
+
+  .art-gallery {
+    max-width: 24rem;
+    margin-inline: auto;
   }
 }
 
